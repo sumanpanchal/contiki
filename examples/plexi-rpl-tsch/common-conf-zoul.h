@@ -95,5 +95,8 @@
 #define PLEXI_WITH_LINK_STATISTICS          1
 #undef PLEXI_WITH_QUEUE_STATISTICS
 #define PLEXI_WITH_QUEUE_STATISTICS         0
+
+#define TSCH_CONF_WITH_LINK_SELECTOR 1 /*per-packet link selection */
+
 #endif
 
