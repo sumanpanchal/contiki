@@ -141,6 +141,9 @@ struct tsch_slotframe *tsch_schedule_get_slotframe_by_handle(uint16_t handle);
 int tsch_schedule_remove_slotframe(struct tsch_slotframe *slotframe);
 /* Removes all slotframes, resulting in an empty schedule */
 int tsch_schedule_remove_all_slotframes(void);
+/* Returns next slotframe */
+struct tsch_slotframe *tsch_schedule_get_slotframe_next(struct tsch_slotframe *sf);
+
 
 /* Returns next slotframe */
 struct tsch_slotframe *tsch_schedule_slotframes_next(struct tsch_slotframe *sf);
