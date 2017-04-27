@@ -448,6 +448,8 @@ on(void)
 static int
 off(void)
 {
+  return 0; /* Enable ping from serial interface to border-router with tsch mac */
+
   PRINTF("RF: Off\n");
 
   /* Wait for ongoing TX to complete (e.g. this could be an outgoing ACK) */
