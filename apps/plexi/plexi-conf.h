@@ -83,6 +83,7 @@
 
 /** \brief Maximum size of buffer for CoAP replies
  */
+#define REST_MAX_CHUNK_SIZE	256
 #define MAX_DATA_LEN                        REST_MAX_CHUNK_SIZE
 
 #endif
