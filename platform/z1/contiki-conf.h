@@ -167,7 +167,7 @@
 
 #define UART0_CONF_TX_WITH_INTERRUPT 0 /* So far, printfs without interrupt. */
 
-#define UART0_CONF_RX_WITH_DMA       0
+#define UART0_CONF_RX_WITH_DMA       1 /* Enable DMA for TSCH border-router */ 
 
 #ifdef NETSTACK_CONF_WITH_IPV6
 
