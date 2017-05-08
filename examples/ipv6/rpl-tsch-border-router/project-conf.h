@@ -102,5 +102,10 @@
 
 #define TSCH_CONF_BASE_DRIFT_PPM 0
 
+#undef SLIP_ARCH_CONF_USB
+#define SLIP_ARCH_CONF_USB          1 /* SLIP over USB enable */
+
+#undef DBG_CONF_USB
+#define DBG_CONF_USB                1 /* DBG over USB enable */
 
 #endif /* PROJECT_ROUTER_CONF_H_ */
